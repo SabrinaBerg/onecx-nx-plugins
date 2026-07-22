@@ -179,7 +179,7 @@ export class OpenAPIArraySectionUtil<T = unknown> {
    */
   add(key: string, value: T, options?: ObjectSetOptions) {
     const existStrategy = options ? options.existStrategy : 'skip';
-    const existingItem = this.sectionContent.find((item: any) => item.name === key);
+    const existingItem = this.sectionContent.find((item: T) => (item as { name: string }).name === key);
     if (existingItem != null) {
       if (existStrategy == 'skip') {
         return this;

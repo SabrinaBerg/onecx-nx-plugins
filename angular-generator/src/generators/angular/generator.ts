@@ -15,7 +15,7 @@ import { execSync } from 'child_process';
 import * as ora from 'ora';
 
 import processParams, { GeneratorParameter } from '../shared/parameters.utils';
-import { safeReplace } from '../shared/safeReplace';
+import { safeReplace } from '@onecx/generator-utils';
 import { GeneratorProcessor } from '../shared/generator.utils';
 import { AngularGeneratorSchema } from './schema';
 import { GeneralOpenAPIStep } from './steps/general-openapi.step';

@@ -63,6 +63,7 @@ module.exports = {
           `angular-generator/package.json`,
           `create-workspace/package.json`,
           `react-generator/package.json`,
+          `generator-utils/package.json`,
           `package.json`,
           `CHANGELOG.md`,
         ],

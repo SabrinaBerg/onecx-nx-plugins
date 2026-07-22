@@ -1,8 +1,8 @@
 import { Tree, joinPathFragments, names, updateJson } from '@nx/devkit';
 
-import { deepMerge } from '../../shared/deepMerge';
+import { deepMerge } from '@onecx/generator-utils';
 import { GeneratorStep } from '../../shared/generator.utils';
-import { renderJsonFile } from '../../shared/renderJsonFile';
+import { renderJsonFile } from '@onecx/generator-utils';
 import { DetailsGeneratorSchema } from '../schema';
 import path = require('path');
 import * as fs from 'fs';

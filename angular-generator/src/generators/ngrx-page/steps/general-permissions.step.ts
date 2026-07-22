@@ -1,7 +1,7 @@
 import { Tree, names } from '@nx/devkit';
 import { GeneratorStep } from '../../shared/generator.utils';
 import { PageGeneratorSchema } from '../schema';
-import { updateYaml } from '../../shared/yaml';
+import { updateYaml } from '@onecx/generator-utils';
 
 export class GeneralPermissionsStep
   implements GeneratorStep<PageGeneratorSchema>

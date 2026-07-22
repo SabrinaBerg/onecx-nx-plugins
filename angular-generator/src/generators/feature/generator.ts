@@ -11,7 +11,7 @@ import { FeatureGeneratorSchema } from './schema';
 import * as ora from 'ora';
 import { execSync } from 'child_process';
 import processParams, { GeneratorParameter } from '../shared/parameters.utils';
-import { safeReplace } from '../shared/safeReplace';
+import { safeReplace } from '@onecx/generator-utils';
 import { GeneralPermissionStep } from './steps/general-helm-values.step';
 import { GeneralOpenAPIStep } from './steps/general-openapi.step';
 import { GeneratorProcessor } from '../shared/generator.utils';

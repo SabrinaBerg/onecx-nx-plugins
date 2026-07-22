@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@onecx/angular-generator": ["angular-generator/src/index.ts"],
+      "@onecx/generator-utils": ["generator-utils/src/index.ts"],
       "@onecx/release": ["tools/release/src/index.ts"],
       "@onecx/react-generator": ["react-generator/src/index.ts"]
     }

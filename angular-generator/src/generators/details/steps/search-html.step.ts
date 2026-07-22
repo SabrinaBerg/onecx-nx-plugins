@@ -1,6 +1,6 @@
 import { Tree, names } from '@nx/devkit';
 
-import { safeReplace } from '../../shared/safeReplace';
+import { safeReplace } from '@onecx/generator-utils';
 import { GeneratorStep } from '../../shared/generator.utils';
 import { SearchGeneratorSchema } from '../../search/schema';
 

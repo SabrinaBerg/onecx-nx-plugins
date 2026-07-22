@@ -2,7 +2,7 @@ import { Tree, names } from '@nx/devkit';
 
 import { GeneratorStep } from '../../shared/generator.utils';
 import { SearchGeneratorSchema } from '../../search/schema';
-import { safeReplace } from '../../shared/safeReplace';
+import { safeReplace } from '@onecx/generator-utils';
 
 export class SearchComponentStep
   implements GeneratorStep<SearchGeneratorSchema>

@@ -1,6 +1,6 @@
 import { Tree, joinPathFragments, names } from '@nx/devkit';
 import { GeneratorStep } from '../../shared/generator.utils';
-import { safeReplace } from '../../shared/safeReplace';
+import { safeReplace } from '@onecx/generator-utils';
 import { PageGeneratorSchema } from '../schema';
 
 export class FeatureModuleStep implements GeneratorStep<PageGeneratorSchema> {

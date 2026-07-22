@@ -2,7 +2,7 @@ import { joinPathFragments, names, Tree } from '@nx/devkit';
 
 import { FeatureGeneratorSchema } from '../schema';
 import { GeneratorStep } from '../../shared/generator.utils';
-import { COMMENT_KEY, HelmValuesUtil } from '../../shared/helm/helm.utils';
+import { COMMENT_KEY, HelmValuesUtil } from '@onecx/generator-utils';
 
 export class GeneralPermissionStep implements GeneratorStep<FeatureGeneratorSchema> {
   process(tree: Tree, options: FeatureGeneratorSchema): void {

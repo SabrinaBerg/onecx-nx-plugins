@@ -13,7 +13,7 @@ import * as ora from 'ora';
 
 import processParams, { GeneratorParameter } from '../shared/parameters.utils';
 import angularGenerator from '../angular/generator';
-import { safeReplace } from '../shared/safeReplace';
+import { safeReplace } from '@onecx/generator-utils';
 import { NgrxGeneratorSchema } from './schema';
 
 // set default options for the generator
